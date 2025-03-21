@@ -1,2 +1,2 @@
 # Awesome-UI
-A list of all ui related resources I've used, explored or heard of.
+A curated list of some cool UI libraries, frameworks, tools, tutorials, courses and other resources, I have used, explored or just heard of. 
