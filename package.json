@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "lint:markdown": "markdownlint **/*.md -i node_modules --disable MD013",
+    "lint:awesome": "awesome-lint",
+    "lint": "run-p lint:*",
+    "format": "prettier -w .",
+    "postinstall": "npm run format",
+    "start": "clear && npm run format && npm run lint"
+  },
+  "devDependencies": {
+    "awesome-lint": "^1.2.0",
+    "markdownlint-cli": "^0.44.0",
+    "npm-run-all2": "^7.0.2",
+    "prettier": "^3.5.3"
+  }
+}

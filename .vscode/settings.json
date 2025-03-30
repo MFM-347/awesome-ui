@@ -1,0 +1,17 @@
+{
+  "editor.trimAutoWhitespace": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".gitignore": ".gitattributes",
+    "package.json": "package-lock.json",
+    ".prettier*": ".editorconfig",
+    "README.md": "CONTRIBUTING.md, LICENSE"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
